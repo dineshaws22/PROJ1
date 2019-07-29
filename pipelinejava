@@ -1,0 +1,10 @@
+node {
+    stage("sum checkpoin-1") {
+        git 'https://github.com/dineshaws22/PROJ1'
+    }
+    stage("sum checkpoint-2"){
+        echo "Hello world"
+        echo "succes buddy"
+        
+    }
+}
